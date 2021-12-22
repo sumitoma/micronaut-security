@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: micronaut.security
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, docker, file-watch, file-watch-osx, http-client, java, java-application, junit, logback, maven, netty-server, readme, security-annotations, security-session, shade, yaml]

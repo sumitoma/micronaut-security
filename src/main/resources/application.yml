@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: micronautSecurity
+  security:
+    authentication: session
+    endpoints:
+      login:
+        enabled: true
+      logout:
+        enabled: true
+    redirect:
+      login-success:  /postLogin
+      logout: /postLogout
